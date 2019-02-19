@@ -1,0 +1,85 @@
+body {
+  /* background-color: rgb(242, 232, 222); */
+  color: rgb(65,195,221);
+  font-family: monospace;
+  margin: 5px;
+}
+
+div {
+  min-height: 20vh;
+  width: auto;
+
+}
+/* Use class selectors- you can select a number of elements using a ".class
+to select all tags with that class */
+
+div.contrast {
+  background-color: rgb(0,0,0);
+  color: rgb(255,255,255);
+  display: flex;
+  justify-content:center;
+  align-items: center;
+  flex-direction: column;
+}
+
+h1,h2 {
+  text-align: center;
+}
+h1{
+  font-size: 5em;
+}
+
+/* How to comment in css */
+/* to do other things, simply define the tags with {} making sure to choose
+tags you've using in the html body i.e.
+
+
+p {text-align: center;
+
+} */
+h2 {font-size: 2.5em;
+}
+img{
+  display: flex;
+  padding: 20px;
+  margin: 0 auto;
+  border-radius: 130px;
+  /* max-width: 200px
+  max-height:none; */
+}
+
+p {width: 40%;
+  margin: 10vh 10vw;
+  font-size: 2em;
+  text-align:  center;
+}
+
+a{ color: green;
+}
+
+ol {
+  list-style: georgian;
+  padding: 0;
+  margin-bottom: 10%;
+  font-size: 3em;
+  display: flex;
+  justify-content: space-evenly;
+
+}
+/* background image
+/* use ID to individually select an element, you need to do this in html first */
+li#lower {
+  margin-top: 7%;
+}
+li#lowest {
+  margin-bottom: 14%
+}
+
+li {
+  margin: 0 20px;
+  transition: 0.6s ease;
+}
+li:hover {
+  font-size: 1.2em;
+  transition: 0.6 ease;
+}
